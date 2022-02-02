@@ -1,21 +1,26 @@
 package com.example.day1
 
-import android.graphics.Bitmap
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.ImageView
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.image_gallery)
+        setContentView(R.layout.activity_sp_dp)
+        Log.w("MainActivity_onCreate", "executing onCreate")
+        //throw Exception("Test")
     }
 
     override fun onStart() {
         super.onStart()
-        println("test")
+        println("@@@@@@@@@@@ONSTART@@@@@@@@@@@@@@")
         //d for debug for information, for warning, for error
+        //i for information
+        //w for warning
+        //e for Error
+        //wtf for
         Log.d("MainActivity_onStart", "executing onStart")
     }
 
@@ -23,14 +28,14 @@ class MainActivity : AppCompatActivity() {
         super.onPause()
         println("test")
         //d for debug for information, for warning, for error
-        Log.d("MainActivity_onStart", "executing onPause")
+        Log.d("MainActivity_onPause", "executing onPause")
     }
 
     override fun onStop() {
         super.onStop()
         println("test")
         //d for debug for information, for warning, for error
-        Log.d("MainActivity_onStart", "executing onStop")
+        Log.d("MainActivity_onStop", "executing onStop")
     }
 
     override fun onRestart() {
