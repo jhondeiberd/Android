@@ -8,7 +8,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sp_dp)
+        setContentView(R.layout.activity_reproduce)
         Log.w("MainActivity_onCreate", "executing onCreate")
         //throw Exception("Test")
     }
