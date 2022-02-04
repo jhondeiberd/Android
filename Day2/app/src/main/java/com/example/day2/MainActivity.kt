@@ -46,6 +46,7 @@ class MainActivity : AppCompatActivity()  {
             val e : EditText = view //Cast to EditText
             Log.e("MainActivity_acceptClicked", e.text.toString())
         }
+
         if (view is Button) {   //Check Type
             val e : Button = view
             if (e.text.toString().equals("accept", true)){
@@ -57,9 +58,9 @@ class MainActivity : AppCompatActivity()  {
                     putExtra("ExtraKey", "ExtraValue")
                 }
                 startActivity(intent)
-                
+
             }
-            
+
             Log.e("MainActivity_acceptClicked", e.text.toString())
         }
     }
@@ -67,7 +68,5 @@ class MainActivity : AppCompatActivity()  {
     public  fun onClick(v: View?) {
         Log.e("MainActivity_onClick", "Button Clicked.")
     }
-    
-    
     
 }
