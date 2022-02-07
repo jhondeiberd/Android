@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Labs</string>
+    <string name="rolls">%d ==== %f%%</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/c_a"
+        android:title="a"
+        />
+    <item
+        android:id="@+id/c_b"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="b"
+        >
+        <menu>
+            <item
+                android:id="@+id/c_b_a"
+                android:title="asd"
+                />
+        </menu>
+    </item>
+
+
+</menu>
