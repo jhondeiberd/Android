@@ -10,22 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Labs">
         <activity
-            android:name=".Create_snackbars"
-            android:exported="false" />
-        <activity
-            android:name=".Create_toasts"
-            android:exported="false" />
-        <activity
-            android:name=".GameDices"
-            android:exported="false" />
-        <activity
             android:name=".GameDicesResult"
             android:exported="false" />
         <activity
             android:name=".CreateToast"
             android:exported="false" />
         <activity
-            android:name=".PracticalExam1"
+            android:name=".GameDices"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
