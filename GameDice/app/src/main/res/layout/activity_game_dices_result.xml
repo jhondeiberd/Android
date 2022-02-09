@@ -12,7 +12,7 @@
         android:id="@+id/restart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Restart game"
+        android:text="@string/restartGame"
         android:layout_gravity="end"
         />
     <LinearLayout
@@ -25,9 +25,9 @@
             android:layout_height="match_parent"
             android:background="@color/purple_700"
             android:gravity="center"
-            android:text="Total Rolls"
+            android:text="@string/totalRolls"
             android:textColor="@color/white"
-            android:textSize="40dp"
+            android:textSize="30dp"
             android:textStyle="bold"
             />
         <TextView
@@ -62,9 +62,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Result number 1"
+                android:text="@string/result1"
                 android:textSize="26dp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
             <TextView
                 android:id="@+id/result_1"
                 android:layout_width="match_parent"
@@ -94,15 +96,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Result number 2"
+                android:text="@string/result2"
                 android:textSize="26dp"
-                android:textStyle="bold" />
-            <EditText
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+            <TextView
                 android:id="@+id/result_2"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:gravity="center"
-                android:text="0"
                 android:textSize="24dp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -126,15 +129,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Result number 3"
+                android:text="@string/result3"
                 android:textSize="26dp"
-                android:textStyle="bold" />
-            <EditText
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+            <TextView
                 android:id="@+id/result_3"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:gravity="center"
-                android:text="0"
                 android:textSize="24dp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -158,15 +162,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Result number 4"
+                android:text="@string/result4"
                 android:textSize="26dp"
-                android:textStyle="bold" />
-            <EditText
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+            <TextView
                 android:id="@+id/result_4"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:gravity="center"
-                android:text="0"
                 android:textSize="24dp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -190,15 +195,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Result number 5"
+                android:text="@string/result5"
                 android:textSize="26dp"
-                android:textStyle="bold" />
-            <EditText
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+            <TextView
                 android:id="@+id/result_5"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:gravity="center"
-                android:text="0"
                 android:textSize="24dp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -225,15 +231,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Result number 6"
+                android:text="@string/result6"
                 android:textSize="26dp"
-                android:textStyle="bold" />
-            <EditText
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+            <TextView
                 android:id="@+id/result_6"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:gravity="center"
-                android:text="0"
                 android:textSize="24dp"
                 android:textStyle="bold" />
         </LinearLayout>

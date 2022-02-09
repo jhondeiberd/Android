@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dé</string>
+    <string name="play">JOUER</string>
+    <string name="results">RÉSULTATS</string>
+    <string name="totalRolls">Total Rouleaux</string>
+    <string name="restartGame">RECOMMENCER JEU</string>
+    <string name="result1">Numéro résultat 1</string>
+    <string name="result2">Numéro résultat 2</string>
+    <string name="result3">Numéro résultat 3</string>
+    <string name="result4">Numéro résultat 4</string>
+    <string name="result5">Numéro résultat 5</string>
+    <string name="result6">Numéro résultat 6</string>
+
+</resources>

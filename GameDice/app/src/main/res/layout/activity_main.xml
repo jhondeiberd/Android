@@ -4,36 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GameDices">
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/dice"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/change"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:src="@drawable/dicenum1"
+        app:layout_constraintBottom_toTopOf="@+id/results"
+        app:layout_constraintTop_toBottomOf="@+id/play"
         />
 
     <Button
-        android:id="@+id/change"
-        android:layout_width="wrap_content"
+        android:id="@+id/play"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="PLAY"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/play"
+        app:layout_constraintBottom_toTopOf="@+id/dice"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8" />
+        android:textSize="30dp"
+        />
 
     <Button
         android:id="@+id/results"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Results"
+        android:layout_marginBottom="112dp"
+        android:text="@string/results"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         />
-
+    d
 </androidx.constraintlayout.widget.ConstraintLayout>

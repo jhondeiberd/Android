@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dado</string>
+    <string name="play">JUGAR</string>
+    <string name="results">RESULTADOS</string>
+    <string name="restartGame">EMPEZAR JUEGO</string>
+    <string name="totalRolls">Total lanzamientos</string>
+    <string name="result1">Resultados número 1</string>
+    <string name="result2">Resultados número 2</string>
+    <string name="result3">Resultados número 3</string>
+    <string name="result4">Resultados número 4</string>
+    <string name="result5">Resultados número 5</string>
+    <string name="result6">Resultados número 6</string>
+</resources>
