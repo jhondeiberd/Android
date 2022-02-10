@@ -17,19 +17,20 @@ class DialogListActivity : AppCompatActivity() {
 
         alertDialogButton.setOnClickListener {
             val builder = AlertDialog.Builder(this)
-            builder.setTitle(R.string.dialogTittle)
+            builder.setTitle(R.string.dialogTitle)
 //            val myValues: CharSequence? = listOf<CharSequence>("Apple", "Orange", "Pear", "Banana")
             builder.setItems(R.array.dialogList, this::dialogListClicked)
             builder.show()
+
         }
     }
 
-    private fun dialogListClicked(dialog: DialogInterface, which: Int){
-        when(which){
-            0 -> Toast.makeText(this, "Apple clicked", Toast.LENGTH_SHORT).show()
-            1 -> Log.e("DialogListActivity_dialogListClicked", "Orange clicked")
-            2, 3 -> Log.e("DialogListActivity_dialogListClicked", "Remain fruits")
+    private fun dialogListClicked(dialog: DialogInterface, which: Int) {
+        when(which) {
+            0 -> Toast.makeText(this, "Apple Clicked", Toast.LENGTH_SHORT).show()
+            1 -> Log.e("DialogListActivity_dialogListClicked", "Pear")
+            2, 3 -> Log.e("DialogListActivity_dialogListClicked", "Remaining Fruits")
         }
-    }
 
+    }
 }

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="dialogTittle">I am Amazing</string>
+    <string name="dialogTitle">I am Amazing</string>
     <string name="dialogMessage">Is it really?</string>
     <string name="positiveButton">OK</string>
-    <string name="nagativeButton">No</string>
+    <string name="negativeButton">No</string>
     <string name="neutralButton">Cancel</string>
     <array name="dialogList">
         <item>Apple</item>
-        <item>Orange</item>
         <item>Pear</item>
+        <item>Orange</item>
         <item>Banana</item>
     </array>
 </resources>
