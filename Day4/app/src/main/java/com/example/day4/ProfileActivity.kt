@@ -10,14 +10,14 @@ class ProfileActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_profile)
 
-        val firstNameTextView = findViewById<TextView>(R.id.main_firstName)
-        val lastNameTextView = findViewById<TextView>(R.id.main_lastName)
+        val firstNameTextView = findViewById<TextView>(R.id.profile_firstName)
+        val lastNameTextView = findViewById<TextView>(R.id.profile_lastName)
 
         val myIntent = intent
         if (myIntent.hasExtra(MainActivity.EXTRA_SERIALIZABLE_KEY)){
-            val myTeacher : Teacher = myIntent.getSerializableExtra(MainActivity.EXTRA_SERIALIZABLE_KEY) as Teacher
-            firstNameTextView.text = myTeacher.getFirstName()
-            lastNameTextView.text = myTeacher.lastName
+            val myTeacher : Teacher? = myIntent.getSerializableExtra(MainActivity.EXTRA_SERIALIZABLE_KEY) as? Teacher
+            firstNameTextView.text = myTeacher?.getFirstName()
+            lastNameTextView.text = myTeacher?.lastName
         }
 
     }

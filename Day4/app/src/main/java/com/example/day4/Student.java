@@ -1,10 +1,17 @@
 package com.example.day4;
 
-public class Student {
+import java.io.Serializable;
+
+public class Student implements Serializable {
     private String firstName;
     private String lastName;
+    private int age = 12;
 
-    public Student(String firstName, String lastName) {
+    private void das() {
+
+    }
+
+    public Student(String firstName, String lastName){
         this.firstName = firstName;
         this.lastName = lastName;
     }
@@ -13,12 +20,12 @@ public class Student {
         return firstName;
     }
 
-    public String getLastName() {
-        return lastName;
-    }
-
     public void setFirstName(String firstName) {
         this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
     }
 
     public void setLastName(String lastName) {

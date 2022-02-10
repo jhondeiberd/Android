@@ -16,11 +16,12 @@ class ContextActivity : AppCompatActivity() {
 
         popButton.setOnClickListener { Toast.makeText(this, "POP", Toast.LENGTH_SHORT).show() }
 
-        popButton.setOnClickListener {
+        popButton.setOnLongClickListener {
             Toast.makeText(this, "Context POP", Toast.LENGTH_SHORT).show()
-            true
+            true  //Consumes Click Events. So OnClick doesn't happen
         }
 
+        //registerForContextMenu(popButton) //This superseeds LongClickEvent.
     }
 
     override fun onCreateContextMenu(menu: ContextMenu?, v: View?, menuInfo: ContextMenu.ContextMenuInfo?) {
@@ -29,4 +30,3 @@ class ContextActivity : AppCompatActivity() {
     }
 
 }
-
