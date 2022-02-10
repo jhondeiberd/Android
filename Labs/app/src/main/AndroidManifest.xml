@@ -9,11 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Labs">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
         <activity
             android:name=".CreateToast"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Activity_image_gallery"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
