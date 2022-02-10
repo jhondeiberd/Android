@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">Something Else</string>
-    <string name="sendButton">SEND ELSE</string>
-    <string name="name" translatable="false">Jhon</string>
+    <string name="app_name" translatable="false">REZA</string>
+    <string name="sendButton">SEND MORE </string>
     <string name="hello" translatable="false">Hello %s, you are %s</string>
 </resources>

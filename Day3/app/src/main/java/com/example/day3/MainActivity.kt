@@ -11,10 +11,9 @@ import android.widget.TextView
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 
-
 class MainActivity : AppCompatActivity() {
     companion object {
-        public const val EXTRA_HELLO_KEY = "Hello"
+        public const val EXTRA_HELLO_KEY = "hello"
     }
 
     lateinit var stringValue: String
@@ -38,20 +37,21 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)  //Inflate view
+        setContentView(R.layout.activity_main) //inflate View
 
-        val hello = findViewById<TextView>(R.id.main_hello)
-        val sendMore = findViewById<TextView>(R.id.main_sendMore)
-        sendMore.setOnClickListener(this::sendMore)   //Method referencing
+        helloTextView = findViewById<TextView>(R.id.main_helloWorld)
+        val sendMore = findViewById<Button>(R.id.main_sendMore)
+        sendMore.setOnClickListener(this::sendMore) //Method Referencing
 
-        //hello.text = "Hello everyone"
-        //hello.text = R.string.app_name
-        //hello.setText(R.string.app_name)
+//        hello.text = R.string.app_name
+//        hello.setText("dsadas")
+//        hello.setText(R.string.app_name) //Set to that Resource
 
         stringValue = resources.getString(R.string.hello, "Reza", "great")
         helloTextView.text = stringValue
         //String stringValue = getResources().getString(R.string.app_name);
         Log.e("MainActivity_onCreate", stringValue)
+
     }
 
     private fun sendMore(view: View) {
@@ -62,9 +62,10 @@ class MainActivity : AppCompatActivity() {
         resultLauncher.launch(intent)
     }
 
+
     //Deprecated
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
     }
-
 }
+
