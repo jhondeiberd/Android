@@ -1,8 +1,9 @@
 package com.example.sqlliteapp.db
 
+import android.content.Context
 import android.provider.BaseColumns
 
-class DatingDBContract {
+class DatingDBContract(context: Context) {
     //Tables
     object UserTable : BaseColumns {
         const val TABLE_NAME = "user"
