@@ -1,6 +1,5 @@
 package com.example.networkconnection
 
-import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -26,9 +25,9 @@ class MainActivity : AppCompatActivity(), retrofit2.Callback<User>  {
         avatarImage = findViewById(R.id.main_avatar)
 
 
-        val callUser = GithubApi.retrofitService.getUser("MadReza")
-        val callFollowers = GithubApi.retrofitService.getFollowers("MadReza")
-        val callRepositories = GithubApi.retrofitService.getRepositories("MadReza")
+        val callUser = GithubApi.retrofitService.getUser("jhondeiberd")
+        val callFollowers = GithubApi.retrofitService.getFollowers("jhondeiberd")
+        val callRepositories = GithubApi.retrofitService.getRepositories("jhondeiberd")
 
         callUser.enqueue(this)
         callFollowers.enqueue(object : Callback<List<User>> {

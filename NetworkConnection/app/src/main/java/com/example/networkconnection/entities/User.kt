@@ -8,5 +8,5 @@ data class User (
         var url: String,
         @SerializedName("html_url") var htmlUrl: String,
         var email: String?  //TODO: Is this null or crash my app
-        ){
+){
 }
