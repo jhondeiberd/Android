@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Examen final</string>
+    <string name="menu">Menu</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="menu_checkout">Vérifiez</string>
+    <string name="purchase">ACHAT</string>
+</resources>

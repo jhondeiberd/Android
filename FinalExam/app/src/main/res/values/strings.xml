@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Final Exam</string>
+    <string name="menu">Menu</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="menu_checkout">Check out</string>
+    <string name="purchase">PURCHASE</string>
+</resources>
