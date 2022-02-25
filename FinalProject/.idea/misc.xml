@@ -12,10 +12,12 @@
         <entry key="..\:/Users/jhond/AndroidStudioProjects/Android/FinalProject/app/src/main/res/drawable/ic_money_focused.xml" value="0.1145" />
         <entry key="..\:/Users/jhond/AndroidStudioProjects/Android/FinalProject/app/src/main/res/drawable/label_selector.xml" value="0.1145" />
         <entry key="..\:/Users/jhond/AndroidStudioProjects/Android/FinalProject/app/src/main/res/drawable/money_selector.xml" value="0.1145" />
-        <entry key="..\:/Users/jhond/AndroidStudioProjects/Android/FinalProject/app/src/main/res/layout/activity_add_transaction.xml" value="0.1765625" />
+        <entry key="..\:/Users/jhond/AndroidStudioProjects/Android/FinalProject/app/src/main/res/layout/activity_add_transaction.xml" value="0.22" />
         <entry key="..\:/Users/jhond/AndroidStudioProjects/Android/FinalProject/app/src/main/res/layout/activity_detailed.xml" value="0.25" />
         <entry key="..\:/Users/jhond/AndroidStudioProjects/Android/FinalProject/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/jhond/AndroidStudioProjects/Android/FinalProject/app/src/main/res/layout/activity_transaction.xml" value="0.1765625" />
+        <entry key="..\:/Users/jhond/AndroidStudioProjects/Android/FinalProject/app/src/main/res/layout/list_group.xml" value="0.1765625" />
+        <entry key="..\:/Users/jhond/AndroidStudioProjects/Android/FinalProject/app/src/main/res/layout/list_items.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/jhond/AndroidStudioProjects/Android/FinalProject/app/src/main/res/layout/transaction_layout.xml" value="0.1765625" />
       </map>
     </option>

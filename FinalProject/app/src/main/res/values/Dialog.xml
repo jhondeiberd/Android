@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialogTitle">Current activity</string>
+    <string name="dialogMessage">Do you want to close this window?</string>  <!--    Desea cerrar esta ventana?-->
+    <string name="positiveButton">OK</string>
+    <string name="negativeButton">Cancel</string>
+</resources>

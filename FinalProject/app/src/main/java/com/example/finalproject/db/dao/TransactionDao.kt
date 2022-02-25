@@ -6,7 +6,7 @@ import com.example.finalproject.entities.Transaction
 @Dao
 interface TransactionDao {
 
-    @Query("SELECT * FROM transactions")
+    @Query("SELECT * FROM transactions order by amount")
     fun getAll(): List<Transaction>
 
     @Insert

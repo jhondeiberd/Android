@@ -15,7 +15,7 @@ class TransactionAdapter (private var transactions: List<Transaction>) :
     RecyclerView.Adapter<TransactionAdapter.TransactionHolder>() {
 
     class TransactionHolder(view: View) : RecyclerView.ViewHolder(view){
-        val label : TextView = view.findViewById(R.id.label)
+        val name : TextView = view.findViewById(R.id.name)
         val amount : TextView = view.findViewById(R.id.amount)
 
     }
@@ -37,7 +37,7 @@ class TransactionAdapter (private var transactions: List<Transaction>) :
             holder.amount.setTextColor(ContextCompat.getColor(context, R.color.red))
         }
 
-        holder.label.text = transaction.label
+        holder.name.text = transaction.label
 
         holder.itemView.setOnClickListener{
             val intent = Intent(context, DetailedActivity::class.java)

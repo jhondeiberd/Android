@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Projecto final</string>
+    <string name="total_balance">Total balance</string>
+    <string name="incomes">Ingresos</string>
+    <string name="expense">Gastos</string>
+    <string name="transactions">Transacciones</string>
+    <string name="name">Nombre</string>
+    <string name="amount">Monto</string>
+    <string name="description">Descripcion</string>
+    <string name="add_transaction">Adicionar transaccion</string>
+    <string name="update_transaction">Actualizar transccion</string>
+    <string name="dialogTitle">Actividad actual</string>
+    <string name="dialogMessage">Quieres cerrar esta ventana?</string>
+    <string name="positiveButton">OK</string>
+    <string name="negativeButton">Cancelar</string>
+</resources>

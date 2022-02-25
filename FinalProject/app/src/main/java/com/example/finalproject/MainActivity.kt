@@ -123,7 +123,7 @@ class MainActivity : AppCompatActivity() {
         val expenseAmount = totalAmount - budgetAmount
 
         balance.text = "$ % .2f".format(totalAmount)
-        budget.text = "$ % .2f".format(budgetAmount)
+        income.text = "$ % .2f".format(budgetAmount)
         expense.text = "$ %.2f".format(expenseAmount)
     }
 
